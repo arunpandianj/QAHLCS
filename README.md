@@ -72,7 +72,3 @@ metrics for each dataset and seed, and `results/enc` the frozen encoder weights.
 * Protocol A (learning from scratch, no confidence features) corresponds to the cell `A00` of the `factorial` stage.
 * Training times on one Tesla T4 GPU: main stage 202 minutes for 135 runs, factorial stage 117 minutes for 81 runs, circuit stage 141 minutes for 81 runs.
 * The learning-rate tuning stage was only partly run in the reported experiments and its results are not used in the paper.
-
-## Citation and licence
-
-Citation: [to be added after publication]. Code archive: https://doi.org/10.5281/zenodo.24084168. Licence: [to be added by the authors].
